@@ -1,0 +1,68 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background-image: url('https://live.staticflickr.com/3956/14929574183_ce19f7bd6c_b.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #282626e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+}
+
+#app {
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 420px;
+    text-align: center;
+    z-index: 10; 
+}
+
+#question-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #051506bb;
+    font-style: bold;
+}
+
+#buttons-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #16bc21bb;
+    cursor: pointer;
+}
+
+#progress-container {
+    margin: 20px 0;
+}
+
+#decision-tree {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.blossom {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url('https://img.freepik.com/free-vector/falling-pink-sakura-petals-realistic-illustration_1284-31304.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1718150400&semt=ais_user');
+    background-size: cover;
+    opacity: 0.8;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
