@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const questions = {
-        1: { text: 'hi Linda welcome :) ', options: { 'start': 2 } },
+        1: { text: 'hi Linda welcome :D ', options: { 'start': 2 } },
         2: { text: 'Would you prefer to stay in or go out?', options: { 'stay in': 3, 'go out': 4 } },
         3: { text: 'What type of indoor activity?', options: { 'build legos': 5, 'mini canvas painting': 5,'board games': 5 } },
         4: { text: 'What type of outdoor activity?', options: { 'scenic walk/hike': 9, 'rent and bike pgh coast + bridges': 9,'suprise me': 9 } },
-        5: { text: 'Lose in a game of pool?', options: { 'yes': 6, 'most definitely': 6 } },
-        6: { text: 'What for dinner?', options: { 'cook together': 7, 'order in': 7 } },
+        5: { text: 'Lose in a game of pool >:)?', options: { 'yes': 6, 'most definitely': 6 } },
+        6: { text: 'Whats for dinner?', options: { 'cook together': 7, 'order in': 7 } },
         7: { text: 'Post dinner venture', options: { 'sunset stroll': 8, 'dessert trip': 8,'both': 8 } },
         8: { text: 'Watch a movie?', options: { 'in theaters': 13, 'stay in movie': 13,'naw': 13 } },
         9: { text: 'Get acai bowls?', options: { 'yes': 10, 'yea': 10 } },
